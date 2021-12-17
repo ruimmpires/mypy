@@ -1,6 +1,6 @@
 import os
 from mypy import git
-
+# BOLT
 # Base version.
 # - Release versions have the form "0.NNN".
 # - Dev versions have the form "0.NNN+dev" (PLUS sign to conform to PEP 440).
