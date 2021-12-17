@@ -77,6 +77,7 @@ def run_dmypy(args: List[str]) -> Tuple[str, str, int]:
     # through the main API to avoid the threadsafety problems of
     # modifying sys.stdout/sys.stderr, but that hasn't been done for
     # the dmypy client, so we just do the non-threadsafe thing.
+    # testing BOLT
     def f(stdout: TextIO, stderr: TextIO) -> None:
         old_stdout = sys.stdout
         old_stderr = sys.stderr
